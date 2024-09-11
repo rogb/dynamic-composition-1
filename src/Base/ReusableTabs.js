@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import { Container, Button, Box, Tabs, Tab, Accordion, AccordionSummary, AccordionDetails, Typography, Grid, Paper, Snackbar } from '@mui/material';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import React from 'react';
+import { Box, Tabs, Tab } from '@mui/material';
+
 
 const ReusableTabs = ({ tabs, value, onChange }) => {
   return (

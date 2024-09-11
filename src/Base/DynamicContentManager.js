@@ -1,6 +1,4 @@
-import React, { useState } from 'react';
-import { Container, Button, Box, Tabs, Tab, Accordion, AccordionSummary, AccordionDetails, Typography, Grid, Paper, Snackbar } from '@mui/material';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import { useState } from 'react';
 
 
 const DynamicContentManager = ({ children }) => {

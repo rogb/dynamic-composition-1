@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
-import { Container, Button, Box, Tabs, Tab, Accordion, AccordionSummary, AccordionDetails, Typography, Grid, Paper, Snackbar } from '@mui/material';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import React from 'react';
+import { Container, Button, Box } from '@mui/material';
 
 const BasePage = ({ children, onAddTab, onAddSection, onAddPanel }) => (
   <Container>

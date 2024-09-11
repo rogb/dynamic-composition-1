@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import { Container, Button, Box, Tabs, Tab, Accordion, AccordionSummary, AccordionDetails, Typography, Grid2, Paper, Snackbar } from '@mui/material';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import React from 'react';
+import { Grid2, Paper } from '@mui/material';
+
 
 const GridPanel = ({ children }) => (
     <Grid2 item xs={12} sm={6} md={4}>
